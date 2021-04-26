@@ -34,7 +34,6 @@ def main(repo_path):
     save_as_csv(train_files, train_labels, prepared / "train.csv")
     save_as_csv(test_files, test_labels, prepared / "test.csv")
 
-
 if __name__ == "__main__":
     repo_path = Path(__file__).parent.parent
     main(repo_path)

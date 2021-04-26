@@ -2,4 +2,4 @@
     analytics = false
     remote = remote_storage
 ['remote "remote_storage"']
-    url = s3://pssw-cost/dvc
+    url = C:/HP-Daas/dvc/remote_storage
